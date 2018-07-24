@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F47D1BA721075FAB00C630B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F47D1BA621075FAB00C630B9 /* AppDelegate.m */; };
+		F47D1BA921075FAD00C630B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F47D1BA821075FAD00C630B9 /* Assets.xcassets */; };
+		F47D1BAC21075FAD00C630B9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F47D1BAA21075FAD00C630B9 /* MainMenu.xib */; };
+		F47D1BAF21075FAD00C630B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F47D1BAE21075FAD00C630B9 /* main.m */; };
+		F47D1BBB21088A0C00C630B9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F47D1BBA21088A0C00C630B9 /* Credits.rtf */; };
+		F47D1BC12108E71600C630B9 /* PickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F47D1BBF2108E71600C630B9 /* PickerController.m */; };
+		F4F6B018210CA1A600E086DC /* PrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F6B016210CA1A600E086DC /* PrefsController.m */; };
+		F4F6B01B210CA5F100E086DC /* PrefsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4F6B01A210CA5F000E086DC /* PrefsWindow.xib */; };
+		F4F6B01E210CCF5500E086DC /* Alerts.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F6B01D210CCF5500E086DC /* Alerts.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F47D1BA221075FAB00C630B9 /* BrowserPick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrowserPick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F47D1BA521075FAB00C630B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F47D1BA621075FAB00C630B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F47D1BA821075FAD00C630B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F47D1BAB21075FAD00C630B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F47D1BAD21075FAD00C630B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F47D1BAE21075FAD00C630B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F47D1BB72108899C00C630B9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F47D1BB82108899C00C630B9 /* License.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		F47D1BB92108899C00C630B9 /* TODO.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = TODO.txt; sourceTree = "<group>"; };
+		F47D1BBA21088A0C00C630B9 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		F47D1BBE2108E71600C630B9 /* PickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PickerController.h; path = BrowserPick/PickerController.h; sourceTree = SOURCE_ROOT; };
+		F47D1BBF2108E71600C630B9 /* PickerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PickerController.m; path = BrowserPick/PickerController.m; sourceTree = SOURCE_ROOT; };
+		F4F6B015210CA1A600E086DC /* PrefsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefsController.h; path = BrowserPick/PrefsController.h; sourceTree = SOURCE_ROOT; };
+		F4F6B016210CA1A600E086DC /* PrefsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PrefsController.m; path = BrowserPick/PrefsController.m; sourceTree = SOURCE_ROOT; };
+		F4F6B01A210CA5F000E086DC /* PrefsWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrefsWindow.xib; sourceTree = "<group>"; };
+		F4F6B01C210CCF5400E086DC /* Alerts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alerts.h; sourceTree = "<group>"; };
+		F4F6B01D210CCF5500E086DC /* Alerts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alerts.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F47D1B9F21075FAB00C630B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F47D1B9921075FAB00C630B9 = {
+			isa = PBXGroup;
+			children = (
+				F47D1BB72108899C00C630B9 /* README.md */,
+				F47D1BB82108899C00C630B9 /* License.txt */,
+				F47D1BB92108899C00C630B9 /* TODO.txt */,
+				F47D1BA421075FAB00C630B9 /* BrowserPick */,
+				F47D1BA321075FAB00C630B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F47D1BA321075FAB00C630B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F47D1BA221075FAB00C630B9 /* BrowserPick.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F47D1BA421075FAB00C630B9 /* BrowserPick */ = {
+			isa = PBXGroup;
+			children = (
+				F47D1BAE21075FAD00C630B9 /* main.m */,
+				F47D1BA521075FAB00C630B9 /* AppDelegate.h */,
+				F47D1BA621075FAB00C630B9 /* AppDelegate.m */,
+				F47D1BBE2108E71600C630B9 /* PickerController.h */,
+				F47D1BBF2108E71600C630B9 /* PickerController.m */,
+				F4F6B015210CA1A600E086DC /* PrefsController.h */,
+				F4F6B016210CA1A600E086DC /* PrefsController.m */,
+				F4F6B01C210CCF5400E086DC /* Alerts.h */,
+				F4F6B01D210CCF5500E086DC /* Alerts.m */,
+				F47D1BBD21088A5E00C630B9 /* Resources */,
+			);
+			path = BrowserPick;
+			sourceTree = "<group>";
+		};
+		F47D1BBD21088A5E00C630B9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F47D1BA821075FAD00C630B9 /* Assets.xcassets */,
+				F47D1BAA21075FAD00C630B9 /* MainMenu.xib */,
+				F4F6B01A210CA5F000E086DC /* PrefsWindow.xib */,
+				F47D1BAD21075FAD00C630B9 /* Info.plist */,
+				F47D1BBA21088A0C00C630B9 /* Credits.rtf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F47D1BA121075FAB00C630B9 /* BrowserPick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F47D1BB321075FAD00C630B9 /* Build configuration list for PBXNativeTarget "BrowserPick" */;
+			buildPhases = (
+				F47D1B9E21075FAB00C630B9 /* Sources */,
+				F47D1B9F21075FAB00C630B9 /* Frameworks */,
+				F47D1BA021075FAB00C630B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrowserPick;
+			productName = BrowserPick;
+			productReference = F47D1BA221075FAB00C630B9 /* BrowserPick.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F47D1B9A21075FAB00C630B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Sveinbjorn Thordarson";
+				TargetAttributes = {
+					F47D1BA121075FAB00C630B9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = F47D1B9D21075FAB00C630B9 /* Build configuration list for PBXProject "BrowserPick" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F47D1B9921075FAB00C630B9;
+			productRefGroup = F47D1BA321075FAB00C630B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F47D1BA121075FAB00C630B9 /* BrowserPick */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F47D1BA021075FAB00C630B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F6B01B210CA5F100E086DC /* PrefsWindow.xib in Resources */,
+				F47D1BA921075FAD00C630B9 /* Assets.xcassets in Resources */,
+				F47D1BBB21088A0C00C630B9 /* Credits.rtf in Resources */,
+				F47D1BAC21075FAD00C630B9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F47D1B9E21075FAB00C630B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F6B018210CA1A600E086DC /* PrefsController.m in Sources */,
+				F47D1BAF21075FAD00C630B9 /* main.m in Sources */,
+				F4F6B01E210CCF5500E086DC /* Alerts.m in Sources */,
+				F47D1BC12108E71600C630B9 /* PickerController.m in Sources */,
+				F47D1BA721075FAB00C630B9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F47D1BAA21075FAD00C630B9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F47D1BAB21075FAD00C630B9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F47D1BB121075FAD00C630B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F47D1BB221075FAD00C630B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F47D1BB421075FAD00C630B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BrowserPick/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = org.sveinbjorn.BrowserPick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		F47D1BB521075FAD00C630B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BrowserPick/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = org.sveinbjorn.BrowserPick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F47D1B9D21075FAB00C630B9 /* Build configuration list for PBXProject "BrowserPick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F47D1BB121075FAD00C630B9 /* Debug */,
+				F47D1BB221075FAD00C630B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F47D1BB321075FAD00C630B9 /* Build configuration list for PBXNativeTarget "BrowserPick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F47D1BB421075FAD00C630B9 /* Debug */,
+				F47D1BB521075FAD00C630B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F47D1B9A21075FAB00C630B9 /* Project object */;
+}
